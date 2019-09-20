@@ -8,16 +8,12 @@
 // | 版权所有 2016-2099 重庆瀚乐思信息技术有限公司，并保留所有权利。
 // +----------------------------------------------------------------------
 // | Author: lijiao <1570693659@qq.com>
-// | Date: 2019/9/20 17:43
+// | Date: 2019/9/20 21:51
 // +----------------------------------------------------------------------
 
-class Common
+interface Test
 {
-    public function index()
-    {
-        echo "This is test method";
-    }
-    public function index2(){
-        echo "This is two method";
-    }
+    public function select($sql);
+    public function create($sql);
+    public function update($where,$sql);
 }

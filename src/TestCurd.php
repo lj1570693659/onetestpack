@@ -8,16 +8,21 @@
 // | 版权所有 2016-2099 重庆瀚乐思信息技术有限公司，并保留所有权利。
 // +----------------------------------------------------------------------
 // | Author: lijiao <1570693659@qq.com>
-// | Date: 2019/9/20 17:43
+// | Date: 2019/9/20 21:52
 // +----------------------------------------------------------------------
 
-class Common
+class TestCurd implements Test
 {
-    public function index()
+    public function select($sql)
     {
-        echo "This is test method";
+        // TODO: Implement select() method.
     }
-    public function index2(){
-        echo "This is two method";
+    public function create($sql)
+    {
+        // TODO: Implement create() method.
+    }
+    public function update($where, $sql)
+    {
+        // TODO: Implement update() method.
     }
 }
