@@ -1,0 +1,12 @@
+{
+    "name": "lijiao/vendor",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lijiao",
+            "email": "1570693659@qq.com"
+        }
+    ],
+    "require": {}
+}
