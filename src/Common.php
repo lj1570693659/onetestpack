@@ -17,7 +17,14 @@ class Common
     {
         echo "This is test method";
     }
-    public function index2(){
+
+    public function index2()
+    {
+        echo "This is two method";
+    }
+
+    public function test()
+    {
         echo "This is two method";
     }
 }
