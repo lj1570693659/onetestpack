@@ -1,18 +1,15 @@
 {
-    "name": "lijiao/vendor",
+    "name": "lijiao/jiaojiao",
+    "description": "This is myself one package",
     "type": "composer-plugin",
+    "require": {
+        "php": "7.1"
+    },
     "license": "MIT",
     "authors": [
         {
             "name": "lijiao",
             "email": "1570693659@qq.com"
         }
-    ],
-    "require": {
-	},
-	"autoload": {
-        "psr-4": {
-            "lijiao\\vendor\\": "src/"
-        }
-    }
+    ]
 }
