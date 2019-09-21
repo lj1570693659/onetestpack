@@ -10,7 +10,7 @@
 // | Author: lijiao <1570693659@qq.com>
 // | Date: 2019/9/20 21:52
 // +----------------------------------------------------------------------
-
+namespace src;
 class TestCurd implements Test
 {
     public function select($sql)

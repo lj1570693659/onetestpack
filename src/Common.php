@@ -10,7 +10,7 @@
 // | Author: lijiao <1570693659@qq.com>
 // | Date: 2019/9/20 17:43
 // +----------------------------------------------------------------------
-
+namespace src;
 class Common
 {
     public function index()
