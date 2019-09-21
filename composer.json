@@ -2,9 +2,8 @@
     "name": "lijiao/jiaojiao",
     "description": "This is myself one package",
     "type": "composer-plugin",
-    "version": "dev-master",
     "require": {
-        "php": ">=7.1"
+        "php": ">=7.1.0"
     },
     "license": "MIT",
     "authors": [
