@@ -25,4 +25,8 @@ class TestCurd implements Test
     {
         // TODO: Implement update() method.
     }
+    public function delete($where)
+    {
+        // TODO: Implement delete() method.
+    }
 }

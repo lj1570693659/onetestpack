@@ -16,4 +16,5 @@ interface Test
     public function select($sql);
     public function create($sql);
     public function update($where,$sql);
+    public function delete($where);
 }
